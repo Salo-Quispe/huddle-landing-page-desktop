@@ -1,0 +1,83 @@
+:root{
+    --Violet: hsl(257, 40%, 49%);
+    --Magenta: hsl(300, 69%, 71%);
+    
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(images/bg-desktop.svg);
+    background-color: var(--Violet);
+    font-family: 'Red Hat Display', sans-serif;
+}
+header nav img{
+    display: inline;
+    width: 200px;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.contenedor{
+    display: grid;
+    grid-template-columns: 750px 1fr;
+    grid-gap: 30px;
+    place-content: center;
+    padding-top: 100px;
+    margin: 0 100px;
+    margin-top: -10px;
+
+}
+.img1 img{
+
+    left: 50px;
+}
+.texto{
+    width: 500px;
+    color: white;
+    padding-top: 40px;
+}
+.texto h1{
+    font-size: 250%;
+    margin:  0;
+    line-height: 1.5em;
+}
+.texto p{
+    font-size: 115%;
+    color: white;
+    line-height: 30px;
+    padding-top: 4%;
+}
+div h2{
+    background-color: white;
+    border-radius: 50px;
+    border: none;
+    width: 40%;
+    margin-top: 25px;
+    padding: 15px;
+    text-align: center;
+    color: var(--Violet);
+    font-size: 18px;
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+    
+}
+
+footer{
+    display: inline-flex;
+    padding-left: 83%;
+    height: 50px;
+    width: 100%;
+    
+}
+footer .iconify{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    color: white;
+    border: 1px solid white;
+    padding: 6px;
+    margin: .5em;
+}
+
